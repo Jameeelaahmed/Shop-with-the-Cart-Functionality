@@ -6,8 +6,8 @@ export default function App() {
     
     return(
         <CartContextProvider>
-        <Header/>
-        <Shop/>
+            <Header/>
+            <Shop/>
         </CartContextProvider>
         )
 }

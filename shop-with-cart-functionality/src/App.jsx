@@ -16,9 +16,7 @@ function App() {
       const existingCartItemIndex = updatedItems.findIndex(
         (cartItem) => cartItem.id === id
       );
-
       const existingCartItem = updatedItems[existingCartItemIndex];
-
       if (existingCartItem) {
         const updatedItem = {
           ...existingCartItem,
@@ -34,7 +32,6 @@ function App() {
           quantity: 1,
         });
       }
-
       return {
         items: updatedItems,
       };
